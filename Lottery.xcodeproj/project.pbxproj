@@ -1,0 +1,914 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A9BBC2E246035D600C30C67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BBC2D246035D600C30C67 /* AppDelegate.swift */; };
+		5A9BBC30246035D600C30C67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BBC2F246035D600C30C67 /* SceneDelegate.swift */; };
+		5A9BBC32246035D600C30C67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BBC31246035D600C30C67 /* ViewController.swift */; };
+		5A9BBC38246035D600C30C67 /* Lottery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BBC36246035D600C30C67 /* Lottery.xcdatamodeld */; };
+		5A9BBC3A246035D800C30C67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A9BBC39246035D800C30C67 /* Assets.xcassets */; };
+		5A9BBC48246035D800C30C67 /* LotteryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BBC47246035D800C30C67 /* LotteryTests.swift */; };
+		5A9BBC53246035D800C30C67 /* LotteryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BBC52246035D800C30C67 /* LotteryUITests.swift */; };
+		5A9BBCB02460425600C30C67 /* HMArenaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BBCAF2460425600C30C67 /* HMArenaController.swift */; };
+		5A9BBCB22460428900C30C67 /* Arena.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A9BBCB12460428900C30C67 /* Arena.storyboard */; };
+		5A9BBCB52460431000C30C67 /* HMGroupBuyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BBCB32460431000C30C67 /* HMGroupBuyController.swift */; };
+		5A9BBCB62460431000C30C67 /* HMLuckyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BBCB42460431000C30C67 /* HMLuckyController.swift */; };
+		5A9BBCB9246044C200C30C67 /* HMGroupBuyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BBCB7246044C200C30C67 /* HMGroupBuyButton.swift */; };
+		5A9BBCBA246044C200C30C67 /* Discovery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A9BBCB8246044C200C30C67 /* Discovery.storyboard */; };
+		5A9BBCBC2460451600C30C67 /* HMHallController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BBCBB2460451600C30C67 /* HMHallController.swift */; };
+		5A9BBCBE2460459100C30C67 /* Hall.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A9BBCBD2460459100C30C67 /* Hall.storyboard */; };
+		5A9BBCC0246045D200C30C67 /* History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A9BBCBF246045D200C30C67 /* History.storyboard */; };
+		5A9BBCC32460461A00C30C67 /* HMNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BBCC12460461A00C30C67 /* HMNavigationController.swift */; };
+		5A9BBCC42460461A00C30C67 /* HMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BBCC22460461A00C30C67 /* HMTabBarController.swift */; };
+		5A9BBCCA246046AD00C30C67 /* MyLottery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A9BBCC9246046AD00C30C67 /* MyLottery.storyboard */; };
+		5A9BBCCC246046E400C30C67 /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BBCCB246046E400C30C67 /* UIView+Frame.swift */; };
+		5A9BBCD1246047A800C30C67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A9BBCCD246047A800C30C67 /* LaunchScreen.storyboard */; };
+		5A9BBCD2246047A800C30C67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A9BBCCF246047A800C30C67 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A9BBC44246035D800C30C67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A9BBC22246035D600C30C67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A9BBC29246035D600C30C67;
+			remoteInfo = Lottery;
+		};
+		5A9BBC4F246035D800C30C67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A9BBC22246035D600C30C67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A9BBC29246035D600C30C67;
+			remoteInfo = Lottery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A9BBC2A246035D600C30C67 /* Lottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lottery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9BBC2D246035D600C30C67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A9BBC2F246035D600C30C67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5A9BBC31246035D600C30C67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A9BBC37246035D600C30C67 /* Lottery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lottery.xcdatamodel; sourceTree = "<group>"; };
+		5A9BBC39246035D800C30C67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A9BBC3E246035D800C30C67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A9BBC43246035D800C30C67 /* LotteryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LotteryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9BBC47246035D800C30C67 /* LotteryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryTests.swift; sourceTree = "<group>"; };
+		5A9BBC49246035D800C30C67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A9BBC4E246035D800C30C67 /* LotteryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LotteryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9BBC52246035D800C30C67 /* LotteryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryUITests.swift; sourceTree = "<group>"; };
+		5A9BBC54246035D800C30C67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A9BBCAF2460425600C30C67 /* HMArenaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMArenaController.swift; sourceTree = "<group>"; };
+		5A9BBCB12460428900C30C67 /* Arena.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Arena.storyboard; sourceTree = "<group>"; };
+		5A9BBCB32460431000C30C67 /* HMGroupBuyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMGroupBuyController.swift; sourceTree = "<group>"; };
+		5A9BBCB42460431000C30C67 /* HMLuckyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMLuckyController.swift; sourceTree = "<group>"; };
+		5A9BBCB7246044C200C30C67 /* HMGroupBuyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMGroupBuyButton.swift; sourceTree = "<group>"; };
+		5A9BBCB8246044C200C30C67 /* Discovery.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discovery.storyboard; sourceTree = "<group>"; };
+		5A9BBCBB2460451600C30C67 /* HMHallController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMHallController.swift; sourceTree = "<group>"; };
+		5A9BBCBD2460459100C30C67 /* Hall.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Hall.storyboard; sourceTree = "<group>"; };
+		5A9BBCBF246045D200C30C67 /* History.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = History.storyboard; sourceTree = "<group>"; };
+		5A9BBCC12460461A00C30C67 /* HMNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMNavigationController.swift; sourceTree = "<group>"; };
+		5A9BBCC22460461A00C30C67 /* HMTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMTabBarController.swift; sourceTree = "<group>"; };
+		5A9BBCC9246046AD00C30C67 /* MyLottery.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyLottery.storyboard; sourceTree = "<group>"; };
+		5A9BBCCB246046E400C30C67 /* UIView+Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Frame.swift"; sourceTree = "<group>"; };
+		5A9BBCCE246047A800C30C67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A9BBCD0246047A800C30C67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A9BBC27246035D600C30C67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9BBC40246035D800C30C67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9BBC4B246035D800C30C67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A9BBC21246035D600C30C67 = {
+			isa = PBXGroup;
+			children = (
+				5A9BBC2C246035D600C30C67 /* Lottery */,
+				5A9BBC46246035D800C30C67 /* LotteryTests */,
+				5A9BBC51246035D800C30C67 /* LotteryUITests */,
+				5A9BBC2B246035D600C30C67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A9BBC2B246035D600C30C67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A9BBC2A246035D600C30C67 /* Lottery.app */,
+				5A9BBC43246035D800C30C67 /* LotteryTests.xctest */,
+				5A9BBC4E246035D800C30C67 /* LotteryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A9BBC2C246035D600C30C67 /* Lottery */ = {
+			isa = PBXGroup;
+			children = (
+				5A9BBC602460373600C30C67 /* Common */,
+				5A9BBC66246037F700C30C67 /* Classes */,
+				5A9BBC2D246035D600C30C67 /* AppDelegate.swift */,
+				5A9BBC2F246035D600C30C67 /* SceneDelegate.swift */,
+				5A9BBC31246035D600C30C67 /* ViewController.swift */,
+				5A9BBCCF246047A800C30C67 /* Main.storyboard */,
+				5A9BBCCD246047A800C30C67 /* LaunchScreen.storyboard */,
+				5A9BBC39246035D800C30C67 /* Assets.xcassets */,
+				5A9BBC3E246035D800C30C67 /* Info.plist */,
+				5A9BBC36246035D600C30C67 /* Lottery.xcdatamodeld */,
+			);
+			path = Lottery;
+			sourceTree = "<group>";
+		};
+		5A9BBC46246035D800C30C67 /* LotteryTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A9BBC47246035D800C30C67 /* LotteryTests.swift */,
+				5A9BBC49246035D800C30C67 /* Info.plist */,
+			);
+			path = LotteryTests;
+			sourceTree = "<group>";
+		};
+		5A9BBC51246035D800C30C67 /* LotteryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A9BBC52246035D800C30C67 /* LotteryUITests.swift */,
+				5A9BBC54246035D800C30C67 /* Info.plist */,
+			);
+			path = LotteryUITests;
+			sourceTree = "<group>";
+		};
+		5A9BBC602460373600C30C67 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5A9BBCCB246046E400C30C67 /* UIView+Frame.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5A9BBC66246037F700C30C67 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5A9BBC672460381100C30C67 /* Arena */,
+				5A9BBC6C246038EB00C30C67 /* Discovery */,
+				5A9BBC712460397300C30C67 /* Hall */,
+				5A9BBC77246039DA00C30C67 /* HIstory */,
+				5A9BBC7D24603A3C00C30C67 /* Main */,
+				5A9BBC8324603A9C00C30C67 /* MyLottery */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5A9BBC672460381100C30C67 /* Arena */ = {
+			isa = PBXGroup;
+			children = (
+				5A9BBCAE246041BE00C30C67 /* Modal */,
+				5A9BBC682460382700C30C67 /* Controller */,
+				5A9BBC6B2460386D00C30C67 /* View */,
+				5A9BBC6A2460385F00C30C67 /* Other */,
+			);
+			path = Arena;
+			sourceTree = "<group>";
+		};
+		5A9BBC682460382700C30C67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A9BBCAF2460425600C30C67 /* HMArenaController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5A9BBC6A2460385F00C30C67 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		5A9BBC6B2460386D00C30C67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5A9BBCB12460428900C30C67 /* Arena.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5A9BBC6C246038EB00C30C67 /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				5A9BBC702460395F00C30C67 /* Controller */,
+				5A9BBC6F2460395400C30C67 /* Modal */,
+				5A9BBC6E2460390800C30C67 /* View */,
+				5A9BBC6D246038FF00C30C67 /* Other */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		5A9BBC6D246038FF00C30C67 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		5A9BBC6E2460390800C30C67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5A9BBCB8246044C200C30C67 /* Discovery.storyboard */,
+				5A9BBCB7246044C200C30C67 /* HMGroupBuyButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5A9BBC6F2460395400C30C67 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		5A9BBC702460395F00C30C67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A9BBCB32460431000C30C67 /* HMGroupBuyController.swift */,
+				5A9BBCB42460431000C30C67 /* HMLuckyController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5A9BBC712460397300C30C67 /* Hall */ = {
+			isa = PBXGroup;
+			children = (
+				5A9BBC76246039BC00C30C67 /* Controller */,
+				5A9BBC74246039AC00C30C67 /* Modal */,
+				5A9BBC73246039A400C30C67 /* View */,
+				5A9BBC722460397A00C30C67 /* Other */,
+			);
+			path = Hall;
+			sourceTree = "<group>";
+		};
+		5A9BBC722460397A00C30C67 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		5A9BBC73246039A400C30C67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5A9BBCBD2460459100C30C67 /* Hall.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5A9BBC74246039AC00C30C67 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		5A9BBC76246039BC00C30C67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A9BBCBB2460451600C30C67 /* HMHallController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5A9BBC77246039DA00C30C67 /* HIstory */ = {
+			isa = PBXGroup;
+			children = (
+				5A9BBC7B24603A0D00C30C67 /* Controller */,
+				5A9BBC7A24603A0400C30C67 /* Modal */,
+				5A9BBC79246039F800C30C67 /* View */,
+				5A9BBC78246039E800C30C67 /* Other */,
+			);
+			path = HIstory;
+			sourceTree = "<group>";
+		};
+		5A9BBC78246039E800C30C67 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		5A9BBC79246039F800C30C67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5A9BBCBF246045D200C30C67 /* History.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5A9BBC7A24603A0400C30C67 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		5A9BBC7B24603A0D00C30C67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5A9BBC7D24603A3C00C30C67 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5A9BBC8224603A7A00C30C67 /* Controller */,
+				5A9BBC8124603A6C00C30C67 /* Modal */,
+				5A9BBC7F24603A4F00C30C67 /* View */,
+				5A9BBC7E24603A4800C30C67 /* Other */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5A9BBC7E24603A4800C30C67 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		5A9BBC7F24603A4F00C30C67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5A9BBC8124603A6C00C30C67 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		5A9BBC8224603A7A00C30C67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A9BBCC12460461A00C30C67 /* HMNavigationController.swift */,
+				5A9BBCC22460461A00C30C67 /* HMTabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5A9BBC8324603A9C00C30C67 /* MyLottery */ = {
+			isa = PBXGroup;
+			children = (
+				5A9BBC8824603AE300C30C67 /* View */,
+				5A9BBC8624603ACF00C30C67 /* Other */,
+				5A9BBC8524603AC300C30C67 /* Modal */,
+				5A9BBC8424603AB800C30C67 /* Controller */,
+			);
+			path = MyLottery;
+			sourceTree = "<group>";
+		};
+		5A9BBC8424603AB800C30C67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5A9BBC8524603AC300C30C67 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		5A9BBC8624603ACF00C30C67 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		5A9BBC8824603AE300C30C67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5A9BBCC9246046AD00C30C67 /* MyLottery.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5A9BBCAE246041BE00C30C67 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A9BBC29246035D600C30C67 /* Lottery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A9BBC57246035D800C30C67 /* Build configuration list for PBXNativeTarget "Lottery" */;
+			buildPhases = (
+				5A9BBC26246035D600C30C67 /* Sources */,
+				5A9BBC27246035D600C30C67 /* Frameworks */,
+				5A9BBC28246035D600C30C67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lottery;
+			productName = Lottery;
+			productReference = 5A9BBC2A246035D600C30C67 /* Lottery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A9BBC42246035D800C30C67 /* LotteryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A9BBC5A246035D800C30C67 /* Build configuration list for PBXNativeTarget "LotteryTests" */;
+			buildPhases = (
+				5A9BBC3F246035D800C30C67 /* Sources */,
+				5A9BBC40246035D800C30C67 /* Frameworks */,
+				5A9BBC41246035D800C30C67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A9BBC45246035D800C30C67 /* PBXTargetDependency */,
+			);
+			name = LotteryTests;
+			productName = LotteryTests;
+			productReference = 5A9BBC43246035D800C30C67 /* LotteryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A9BBC4D246035D800C30C67 /* LotteryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A9BBC5D246035D800C30C67 /* Build configuration list for PBXNativeTarget "LotteryUITests" */;
+			buildPhases = (
+				5A9BBC4A246035D800C30C67 /* Sources */,
+				5A9BBC4B246035D800C30C67 /* Frameworks */,
+				5A9BBC4C246035D800C30C67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A9BBC50246035D800C30C67 /* PBXTargetDependency */,
+			);
+			name = LotteryUITests;
+			productName = LotteryUITests;
+			productReference = 5A9BBC4E246035D800C30C67 /* LotteryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A9BBC22246035D600C30C67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = herhan;
+				TargetAttributes = {
+					5A9BBC29246035D600C30C67 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					5A9BBC42246035D800C30C67 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 5A9BBC29246035D600C30C67;
+					};
+					5A9BBC4D246035D800C30C67 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 5A9BBC29246035D600C30C67;
+					};
+				};
+			};
+			buildConfigurationList = 5A9BBC25246035D600C30C67 /* Build configuration list for PBXProject "Lottery" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A9BBC21246035D600C30C67;
+			productRefGroup = 5A9BBC2B246035D600C30C67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A9BBC29246035D600C30C67 /* Lottery */,
+				5A9BBC42246035D800C30C67 /* LotteryTests */,
+				5A9BBC4D246035D800C30C67 /* LotteryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A9BBC28246035D600C30C67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9BBCBA246044C200C30C67 /* Discovery.storyboard in Resources */,
+				5A9BBCC0246045D200C30C67 /* History.storyboard in Resources */,
+				5A9BBCCA246046AD00C30C67 /* MyLottery.storyboard in Resources */,
+				5A9BBCD2246047A800C30C67 /* Main.storyboard in Resources */,
+				5A9BBCB22460428900C30C67 /* Arena.storyboard in Resources */,
+				5A9BBCD1246047A800C30C67 /* LaunchScreen.storyboard in Resources */,
+				5A9BBC3A246035D800C30C67 /* Assets.xcassets in Resources */,
+				5A9BBCBE2460459100C30C67 /* Hall.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9BBC41246035D800C30C67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9BBC4C246035D800C30C67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A9BBC26246035D600C30C67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9BBCB02460425600C30C67 /* HMArenaController.swift in Sources */,
+				5A9BBC32246035D600C30C67 /* ViewController.swift in Sources */,
+				5A9BBC2E246035D600C30C67 /* AppDelegate.swift in Sources */,
+				5A9BBCB62460431000C30C67 /* HMLuckyController.swift in Sources */,
+				5A9BBC30246035D600C30C67 /* SceneDelegate.swift in Sources */,
+				5A9BBCBC2460451600C30C67 /* HMHallController.swift in Sources */,
+				5A9BBCC32460461A00C30C67 /* HMNavigationController.swift in Sources */,
+				5A9BBC38246035D600C30C67 /* Lottery.xcdatamodeld in Sources */,
+				5A9BBCCC246046E400C30C67 /* UIView+Frame.swift in Sources */,
+				5A9BBCB52460431000C30C67 /* HMGroupBuyController.swift in Sources */,
+				5A9BBCB9246044C200C30C67 /* HMGroupBuyButton.swift in Sources */,
+				5A9BBCC42460461A00C30C67 /* HMTabBarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9BBC3F246035D800C30C67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9BBC48246035D800C30C67 /* LotteryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9BBC4A246035D800C30C67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9BBC53246035D800C30C67 /* LotteryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A9BBC45246035D800C30C67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A9BBC29246035D600C30C67 /* Lottery */;
+			targetProxy = 5A9BBC44246035D800C30C67 /* PBXContainerItemProxy */;
+		};
+		5A9BBC50246035D800C30C67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A9BBC29246035D600C30C67 /* Lottery */;
+			targetProxy = 5A9BBC4F246035D800C30C67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A9BBCCD246047A800C30C67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A9BBCCE246047A800C30C67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5A9BBCCF246047A800C30C67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A9BBCD0246047A800C30C67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A9BBC55246035D800C30C67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A9BBC56246035D800C30C67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A9BBC58246035D800C30C67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Lottery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Assignment.Lottery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A9BBC59246035D800C30C67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Lottery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Assignment.Lottery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A9BBC5B246035D800C30C67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LotteryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Assignment.LotteryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lottery.app/Lottery";
+			};
+			name = Debug;
+		};
+		5A9BBC5C246035D800C30C67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LotteryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Assignment.LotteryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lottery.app/Lottery";
+			};
+			name = Release;
+		};
+		5A9BBC5E246035D800C30C67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LotteryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Assignment.LotteryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lottery;
+			};
+			name = Debug;
+		};
+		5A9BBC5F246035D800C30C67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LotteryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Assignment.LotteryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lottery;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A9BBC25246035D600C30C67 /* Build configuration list for PBXProject "Lottery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9BBC55246035D800C30C67 /* Debug */,
+				5A9BBC56246035D800C30C67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A9BBC57246035D800C30C67 /* Build configuration list for PBXNativeTarget "Lottery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9BBC58246035D800C30C67 /* Debug */,
+				5A9BBC59246035D800C30C67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A9BBC5A246035D800C30C67 /* Build configuration list for PBXNativeTarget "LotteryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9BBC5B246035D800C30C67 /* Debug */,
+				5A9BBC5C246035D800C30C67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A9BBC5D246035D800C30C67 /* Build configuration list for PBXNativeTarget "LotteryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9BBC5E246035D800C30C67 /* Debug */,
+				5A9BBC5F246035D800C30C67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5A9BBC36246035D600C30C67 /* Lottery.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5A9BBC37246035D600C30C67 /* Lottery.xcdatamodel */,
+			);
+			currentVersion = 5A9BBC37246035D600C30C67 /* Lottery.xcdatamodel */;
+			path = Lottery.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5A9BBC22246035D600C30C67 /* Project object */;
+}

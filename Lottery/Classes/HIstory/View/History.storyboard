@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="X9h-AA-ABS">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--开奖信息-->
+        <scene sceneID="y2v-MB-Map">
+            <objects>
+                <navigationController id="X9h-AA-ABS" customClass="HMNavigationController" customModule="彩票" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="开奖信息" image="TabBar4" selectedImage="TabBar4Sel" id="X1W-m5-GZg"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MAQ-58-JAb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="eaH-n6-B4o" kind="relationship" relationship="rootViewController" id="BDO-pu-0zb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DRu-Ci-yWP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2" y="-1348"/>
+        </scene>
+        <!--开奖信息-->
+        <scene sceneID="NdR-W3-wfB">
+            <objects>
+                <viewController id="eaH-n6-B4o" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ntR-JO-TPG"/>
+                        <viewControllerLayoutGuide type="bottom" id="qGQ-KO-zlQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NPo-v7-s1T">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="开奖信息" id="wZJ-f7-Uy7">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="70t-PB-QD9">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Bso-F5-ObR">
+                                <rect key="frame" x="271" y="11" width="88" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="开奖推送" image="pushSettings"/>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WpZ-W3-E1i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="834" y="-1349"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="TabBar4" width="64" height="49"/>
+        <image name="TabBar4Sel" width="64" height="49"/>
+        <image name="pushSettings" width="14" height="13"/>
+    </resources>
+</document>
